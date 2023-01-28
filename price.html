@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="./index.html" class="logo">
+            <img src="./logo.png" class="logo"  width="40em" alt="">
+        </a>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./galerie.html">Galerie</a></li>
+                <li><a href="./price.html">Tarifs et Prestations</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img src="./menu-btn.png" alt="menu
+        hamburger" class="menu-hamburger">
+    </nav>
+    <h1>Tarifs et Présentations</h1>
+    <header></header>
+
+
+
+
+
+
+
+<br>
+
+
+
+
+<div class="container">
+    <div class="panel pricing-table">
+      
+      <div class="pricing-plan">
+        <img src="./user-solid.svg" alt="" class="pricing-img">
+        <h2 class="pricing-header">Juste moi</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Scéance pour une personne, en extérieur ou en studio</li>
+        </ul>
+        <span class="pricing-price">130€</span>
+      </div>
+
+      <div class="pricing-plan">
+        <img src="./user-group-solid.svg" alt="" class="pricing-img">
+        <h2 class="pricing-header">Pour deux</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Pour deux personnes en exterieur ou en studio</li>
+        </ul>
+        <span class="pricing-price">195€</span>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="./people-group-solid.svg" alt="" class="pricing-img">
+        <h2 class="pricing-header">Famille</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Pour la famille jusqu'a 4 personnes, en exterieur ou en studio 30 euros en supplément par personne au-delà de 4 (hormis enfant jusqu'à 2 ans)</li>
+        </ul>
+        <span class="pricing-price">220€</span>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+
+  <br>
+
+
+
+
+
+  
+  <div class="container">
+    <div class="panel pricing-table">
+      
+      <div class="pricing-plan">
+        <img src="./person-breastfeeding-solid.svg" alt="" class="pricing-img">
+        <h2 class="pricing-header">Il était une fois</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Photo de grossesse (A domicile, en exterieur ou en studio)</li>
+        </ul>
+        <span class="pricing-price">160€</span>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="./baby-solid.svg" alt="" class="pricing-img">
+        <h2 class="pricing-header">Mon bébé</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Photo d'enfant jusqu'à 3 ans (photo à domicile)</li>
+        </ul>
+        <span class="pricing-price">100€</span>
+      </div>
+      
+      <div class="pricing-plan">
+        <img src="./calendar-solid.svg" alt="" class="pricing-img">
+        <h2 class="pricing-header">J'immortalise l'évenement</h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item">Prestation de mariage ou baptême sur devis</li>
+        </ul>
+        <span class="pricing-price">Sur mesure</span>
+      </div>
+      
+      
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+   
+    
+</body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

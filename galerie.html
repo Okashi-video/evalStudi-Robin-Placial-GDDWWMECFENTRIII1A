@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="./index.html" class="logo">
+            <img src="./logo.png" class="logo"  width="40em" alt="">
+        </a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./galerie.html">Galerie</a></li>
+                <li><a href="./price.html">Tarifs et Prestations</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img src="./menu-btn.png" alt="menu
+        hamburger" class="menu-hamburger">
+    </nav>
+    <h1>Galerie</h1>
+    <header></header>
+
+<br>
+
+    <section id="filters">
+        <div id="all">Tout</div>
+        <div id="mariage">Mariage</div>
+        <div id="grossesse">Grossesse</div>
+        <div id="bebe">Bébé</div>
+        <div id="famille">Famille</div>
+        <div id="bapteme">Baptême</div>
+        <div id="couple">Couple</div>
+        <div id="portrait">Portrait</div>
+    </section>
+    <div id="gallery">
+
+    
+
+        <img src="images/mariage1.jpg" alt="mariage" data-mariage class="active">
+        <img src="images/mariage2.jpg" alt="mariage" data-mariage class="active">
+
+        <img src="images/grossesse1.jpg" alt="grossesse" data-grossesse class="active">
+        <img src="images/grossesse2.jpg" alt="grossesse" data-grossesse class="active">
+
+
+
+        
+        <img src="images/famille1.jpg" alt="famille" data-famille class="active">
+        <img src="images/famille2.jpg" alt="famille" data-famille class="active">
+
+
+
+        <img src="images/bebe1.jpg" alt="bebe" data-bebe class="active">
+        <img src="images/bebe2.jpg" alt="bebe" data-bebe class="active">
+
+
+        
+
+
+        <img src="images/couple1.jpg" alt="couple" data-couple class="active">
+        <img src="images/couple2.jpg" alt="couple" data-couple class="active">
+
+        <img src="images/protrait1.jpg" alt="portrait" data-portrait class="active">
+        <img src="images/protrait2.jpg" alt="portrait" data-portrait class="active">
+
+
+        <img src="images/bapteme1.jpg" alt="bapteme" data-bapteme class="active">
+        <img src="images/bapteme2.jpg" alt="bapteme" data-bapteme class="active">
+
+    </div>
+
+
+    
+</body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
